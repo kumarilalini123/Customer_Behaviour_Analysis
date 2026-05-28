@@ -95,21 +95,28 @@ Key Results:
 
 How to Run the Project:
 
-Python Analysis
-1. Install required libraries:
+1. Clone the repository
 
-```bash
-pip install pandas numpy matplotlib seaborn
-```
+2. Open Customer_Shopping_Behavior_Analysis.ipynb notebook
+This file contains:
+* Data Import
+* Data exploration
+* Data cleaning
+* Connection to SQL Database
 
-2. Run the Jupyter Notebook or Python script.
-SQL Analysis
-1. Import the dataset into PostgreSQL/MySQL/SQL Server
-2. Execute SQL queries provided in the project files
+3. Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
+* Create a database in SQL
+* Run Python code to load data into SQL database
+* Open customer_behavior_sql_queries.sql
+* Answer Business Questions using SQL Queries
 
-Power BI Dashboard
-1. Open the `.pbix` file in Power BI Desktop
-2. Refresh the dataset connection if needed
+4. Connect the SQL Database to Power BI
+* Open customer_behavior_dashboard.pbix
+* Create an interactive dashboard in Power BI
+
+5. Create Project Report and Presentation
+* Create project report
+* Build presentation deck using Gamma AI
 
 ---
 
